@@ -1,4 +1,62 @@
-#map {
-    height: 500px ; 
+/* #map {
+    height: 500px; 
     width: 500px;
+} */
+
+.dartboard {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px; 
+    width: 500px;  
+    border: solid black;
+}
+
+.dartboard div {
+    width: 20px;
+    height: 20px;
+}
+
+.outside {
+    background-color: white;
+}
+
+.circle1 {
+    background-color: darkgrey;
+} 
+
+.circle2 {
+    background-color: blue;
+}
+
+.circle3 {
+    background-color: sienna;
+}
+
+.circle4 {
+    background-color: darkgreen;
+}
+
+.center {
+    background-color: red;
+}
+
+.dart1 {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.dart2 {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.dart3 {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.button1 {
+    background-color: aqua;
+    border-radius: 5px;
+    font-style: inherit ;
 }
